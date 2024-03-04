@@ -1,0 +1,34 @@
+.barra {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(125, 178, 247);
+    text-align: center;
+}
+.dispositivo{
+    font-size: 70px;
+    color: whitesmoke;
+}
+.tablet {
+   display: none;
+}
+.desktop {
+    display: none;
+}
+@media (min-width: 800px) {
+    .barra{
+        height: 150px;
+        background-color: rgba(255, 83, 83, 0.973);
+    }
+    #dispositivo {
+        display: none;
+    }
+}
+@media (min-width: 1228px){
+    .barra{
+        height: 200px;
+        background-color: rgb(194, 0, 0);
+    }
+}
+.rodape{
+    text-align: center;
+}

@@ -1,2 +1,1 @@
-# Lara Danielly N23
-# Eloysa Fantin N6
+# LaraDanielly Araújo Moraes Barros N23
