@@ -1,1 +1,2 @@
-# LaraDanielly Araújo Moraes Barros N23
+# Lara Danielly A. M. B. N23
+# Eloysa N6
