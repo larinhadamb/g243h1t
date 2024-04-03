@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JESUS</title>
     <link rel="stylesheet" href="./css/padrao.css">
     <script src="./js/script.js"></script>
 </head>
@@ -14,7 +12,7 @@
     <header class="barra">
         <span class="mobile">Mobile</span>
         <span class="tablet">Tablet</span>
-        <span class="desktop">Desktop</span>
+        <span class="desktop">Lara e Elo</span>
     </header>
     <section class="conteudo">
         <div class="abas">
@@ -29,9 +27,13 @@
                   hora Atual: <span id="h"></span>
                 </div>
                 <div class="abageral aba2" id="ab2"></div>
-                <div class="abageral aba3" id="ab3"></div>
-                <div class="abageral aba4" id="ab4"></div>
+                Contar de: <input type="number" id="inicio">
+                Ate: <input type="number" id="fim"> <br>
+                <button onclick="iniciar()">Contar</button> <br>
+                <span id="valor"></span>
             </div>
+            <div class="abageral aba3" id="ab3"></div>
+            <div class="abageral aba4" id="ab4"></div>
         </div>
     </section>
     <footer class="rodape">
